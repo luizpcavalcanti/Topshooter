@@ -1,6 +1,6 @@
 
-<div  style="text-align: center">
-<canvas id="ctx" width="500" height="500" style="border: 0.3rem outset pink"></canvas>
+<div  style="text-align: center ; display: flex ;align-items: center; justify-content: center">
+<canvas id="ctx" width="800" height="800" style="border: 0.5rem outset pink"></canvas>
 </div>
 <!--Audio files-->
 <audio id="shoot" src="./sounds/shoot.wav"></audio>
@@ -17,8 +17,8 @@
 
         var ctx = document.getElementById("ctx").getContext("2d");
         ctx.font = '13px Verdana';
-        var HEIGHT = 500;
-        var WIDTH = 500;
+        var HEIGHT = 800;
+        var WIDTH = 800;
         var timeWhenGameStarted = Date.now();  // return time in ms
         var frameCount = 0;
         var score = 0;
